@@ -43,18 +43,35 @@ pip install -r requirements.txt
 GEMINI_API_KEY=your_gemini_api_key
 EXA_API_KEY=your_exa_api_key
 ```
-### 5. Run the application
+### 5. Add MCP server to Cursor
 ```bash
-python demo.py
+{
+  "mcpServers": {
+    "travel-mcp": {
+      "url": "",
+      "capabilities": {
+        "tools": {
+  } } } }
+}
 ```
 
-## 🎬 Usage
-- Connect via MCP Client (Cursor)
-- Configure it to connect to your MCP server
-- Ask natural language queries such as:
-  “Plan me a 5-day trip to Tokyo with cultural activities and food tours.”
-  “Find family-friendly hotels in Paris with nearby attractions.”
-- The system fetches real-time travel data via Exa Search and uses Gemini to return structured trip suggestions.
+### 6. Open in Cursor Chat
+- Open Cursor → go to the Chat panel
+- Select your MCP server (trip-planner)
+- Start asking travel-related questions directly in chat
+
+## 🎬 Usage  
+
+Once the MCP server is added to **Cursor**, you can start chatting with it directly in the **Chat panel**.  
+
+### 💬 Example Queries  
+
+- *“Plan me a 5-day trip to Tokyo focused on food and culture.”*  
+- *“Find family-friendly hotels in Paris near museums.”*  
+- *“Suggest weekend getaways from San Francisco with hiking options.”*  
+
+The server retrieves **real-time travel data** from **Exa Search** and uses **Gemini** to generate structured trip suggestions — all seamlessly within **Cursor chat**.  
+
 
 ## 📺 Demo
 
