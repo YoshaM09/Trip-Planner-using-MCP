@@ -1,6 +1,6 @@
 # 🌍 MCP Server: AI-Powered Trip Planning  
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue)](https://www.python.org/)  [![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-orange)](https://modelcontextprotocol.io/)  [![Gemini API](https://img.shields.io/badge/Gemini_API-AI-green)](https://deepmind.google/technologies/gemini/)  [![Exa Search](https://img.shields.io/badge/Exa_Search-Data-red)](https://exa.ai/)  [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue)](https://www.typescriptlang.org/)  [![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-orange)](https://modelcontextprotocol.io/)  [![Gemini API](https://img.shields.io/badge/Gemini_API-AI-green)](https://deepmind.google/technologies/gemini/)  [![Exa Search](https://img.shields.io/badge/Exa_Search-Data-red)](https://exa.ai/)  [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
 
 An **AI-powered MCP (Model Context Protocol) server** that automates **end-to-end trip planning**.  
 This server integrates **Gemini** for natural language queries, **Exa Search** for real-time travel data, and uses **Cursor as the MCP client**, enabling users to plan trips more efficiently through a seamless AI-driven workflow.  
