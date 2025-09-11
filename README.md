@@ -47,18 +47,14 @@ EXA_API_KEY=your_exa_api_key
 ```bash
 python demo.py
 ```
-### 6. Connect via MCP Client (Cursor)
-- Open Cursor
-- Configure it to connect to your MCP server
-- Start asking travel-related questions
 
 ## 🎬 Usage
-1. Start the MCP server.
-2. Connect with Cursor as the client.
-3. Ask natural language queries such as:
+- Connect via MCP Client (Cursor)
+- Configure it to connect to your MCP server
+- Ask natural language queries such as:
   “Plan me a 5-day trip to Tokyo with cultural activities and food tours.”
   “Find family-friendly hotels in Paris with nearby attractions.”
-4. The system fetches real-time travel data via Exa Search and uses Gemini to return structured trip suggestions.
+- The system fetches real-time travel data via Exa Search and uses Gemini to return structured trip suggestions.
 
 ## 📺 Demo
 
